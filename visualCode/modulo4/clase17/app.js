@@ -6,7 +6,7 @@ const app = express()
 const publicPath = path.resolve(__dirname, './public')
 app.use(express.static(publicPath))
 
-app.listen(8080, () => {
+app.listen(3030, () => {
     console.log('Esto funciono de manera perfecta!');
 })
 
