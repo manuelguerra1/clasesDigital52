@@ -14,7 +14,7 @@ Verde: #39b54a; */
 a {
     text-decoration: none;
 }
-
+/* ----------------------------HEADER------------------------------------- */
 header {
     background-color: #EAC926;
     width: 100%;
@@ -72,3 +72,52 @@ li a {
     margin-left: 9px;
 }
 
+/* ----------------------------FOOTER------------------------------------- */
+footer {
+    text-align: center;
+}
+.fa-credit-card {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #1259c3;
+}
+
+.fa-gift {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #1259c3;
+}
+
+.fa-user-shield {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #1259c3;
+}
+
+.payment{
+    font-size: 13px;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 16px;
+}
+
+.shippings{
+    font-size: 13px;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 16px;
+}
+
+.security{
+    font-size: 13px;
+    margin-bottom: 15px;
+    text-align: center;
+    line-height: 16px;
+}
+
+.copyright {
+    font-size: 11px;
+    margin-bottom: 15px;
+    line-height: 19px;
+    text-align: left;
+}
