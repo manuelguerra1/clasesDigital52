@@ -72,6 +72,18 @@ li a {
     margin-left: 9px;
 }
 
+/* ----------------------------MAIN------------------------------------- */
+main {
+    text-align: center;
+    width: 90vw;
+}
+
+
+article {
+    text-align: center;
+    padding: 10px;
+}
+
 /* ----------------------------FOOTER------------------------------------- */
 footer {
     text-align: center;
