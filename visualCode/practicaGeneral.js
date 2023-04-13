@@ -85,10 +85,23 @@
 
 // console.log(__dirname);
 
-let array1 = [1, 2, 3]
-let array2 = [4, 5, 6]
-let array3 = [...array1, ...array2]
-console.log(array3);
+// let array1 = [1, 2, 3]
+// let array2 = [4, 5, 6]
+// let array3 = [...array1, ...array2]
+// console.log(array3);
+
+let func = function find_max(nums) {
+    let max_num = Number.NEGATIVE_INFINITY
+
+    for (let num of nums) {
+        if(num > max_num) {
+            
+        }
+    }
+    return max_num
+}
+
+console.log(func);
 
 
 

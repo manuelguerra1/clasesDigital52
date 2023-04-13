@@ -1,0 +1,2 @@
+el usuario ingresó a la ruta /
+el usuario ingresó a la ruta /
