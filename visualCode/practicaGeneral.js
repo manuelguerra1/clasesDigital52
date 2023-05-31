@@ -90,19 +90,84 @@
 // let array3 = [...array1, ...array2]
 // console.log(array3);
 
-let func = function find_max(nums) {
-    let max_num = Number.NEGATIVE_INFINITY
+// let func = function find_max(nums) {
+//     let max_num = Number.NEGATIVE_INFINITY
 
-    for (let num of nums) {
-        if(num > max_num) {
+//     for (let num of nums) {
+//         if(num > max_num) {
             
-        }
-    }
-    return max_num
+//         }
+//     }
+//     return max_num
+// }
+
+// console.log(func);
+
+
+function Saludo(props) {
+    return (<div>
+        <h1>{props.titulo}</h1>
+        <h1>{props.subtitulo}</h1>
+    </div>)
 }
 
-console.log(func);
+<Saludo
+    titulo = "Hola mundo"
 
+	subtitulo = "¡Nunca paremos de aprender!"
+/>
+
+import React, {Component} from 'React';
+
+class MiComponente extends Component {
+
+   constructor(props){
+
+       super(props);
+
+       this.state = {
+
+          message: "Hacé click para suscribirte y recibir noticias"
+
+       }
+
+   }
+
+   styles = {
+
+       color: teal
+
+   }
+
+ 
+
+   cambiarColor(){
+
+       this.styles = {
+
+           color: pink
+
+       }
+
+   }
+
+   render(){
+
+       return(
+
+           <div>
+
+               <h3 styles={this.styles} onMouseOver={this.cambiarColor()} >{this.state.message}</h3>
+
+           </div>
+
+       )
+
+   }
+
+}
+
+export default MiComponente
 
 
 
